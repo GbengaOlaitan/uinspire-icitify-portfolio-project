@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: interNormal;
+  src: url(../font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: interBold;
+  src: url(../font/Inter/static/Inter_18pt-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: interMedium;
+  src: url(../font/Inter/static/Inter_18pt-Medium.ttf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: interItalics;
+  src: url(../font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+  font-style: italic;
+};
+
+@theme {
+  --font-interNormal: "interNormal";
+  --font-interBold: "interBold";
+  --font-interMedium: "interMedium";
+  --font-interItalics: "interItalics";
+  --color-interWhite: #FFFFFF;
+  --color-interBlack: #000000;
+  --color-workActive: #6AFF95;
+  --color-buttonColor: #F2F2F2;
+  --text-normal: 1rem;
+  --text-headerBold: 2.5rem;
+  --opacity-Value: 0.4;
+
+}
